@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+}
+img {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+@keyframes glitch {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.4;
+	}
+}
+#image_glitch0 {
+        animation:glitch 130ms infinite reverse;
+	animation-timing-function: linear;
+}
+#image_glitch1 {
+	animation:glitch 70ms infinite alternate linear;
+}
